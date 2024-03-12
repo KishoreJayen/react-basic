@@ -1,25 +1,50 @@
 import logo from './logo.svg';
-import './App.css';
+
+
+const Amount =() =>{
+ return <h1>REACT JS</h1>
+}
+
+const Name=()=>{
+  return(
+    <>
+    <h1>kishore jayen is an web developer and he is an Enterpreneur</h1>
+    </>
+  )
+}
+
+
+const Table=()=>{
+  return(
+    <table>
+    <tr>
+    <th>Name</th><th>Age</th><th>Gender</th>
+    </tr>
+    <tr>
+    <td>Krish</td><td>21</td><td>Male</td>
+    </tr>
+    <tr>
+    <td>Lena</td><td>27</td><td>Female</td>
+    </tr>
+    <tr>
+    <td>Abdul</td><td>34</td><td>Male</td>
+    </tr>
+    </table>
+  )
+}
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <i>
+    <Amount/>
+     <Name/>
+     <Table/>
+     {/* <Sector/>
+    <Role/> */}
+   </i>
+   
   );
 }
-
 export default App;
