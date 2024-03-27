@@ -12,6 +12,15 @@ import Summa from './Summa';
 import ListKeys from './ListKeys';
 import { ListKeysChild } from './ListKeysChild';
 
+import Props3 from './Props3';
+import Mapping from './Mapping';
+import Mapping2 from './Mapping2';
+import Mapping3 from './Mapping3';
+import ExerciseMap from './ExerciseMap';
+import MiniCalc from './MiniCalc';
+import UseEffect from './UseEffect';
+import Component1 from './UseContext';
+import UseRef from './UseRef';
 
 
 
@@ -27,6 +36,15 @@ root.render(
     {/* <Count/> */}
 
  {/* <UseState/> */}
+ <Mapping/>
+ <Mapping2/>
+ <Mapping3/>
+ <ExerciseMap/>
+ <MiniCalc/>
+ <UseEffect/>
+ <Component1/>
+ <UseRef/>
+ <Props3  institution="Imarticus"/>
  <ListKeys name="Kishore Jayen" age={22} sector="IT"  />
  <ListKeys name="Harish Jayen" age={25} sector="Relational Manager"  />
  <ListKeys name="Bindhu Jayen" age={46} sector="Sales Marketing"  />

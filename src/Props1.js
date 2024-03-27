@@ -11,6 +11,7 @@ function Props1(props) {
     <div>
     <i>{props.details}</i>
     <h1>{names}</h1>
+    
     <Props2 name="Randy Orton" bank="HSBC BANK" role="Branch Manager"    />
     </div>
 
